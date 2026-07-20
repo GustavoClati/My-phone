@@ -1,0 +1,17 @@
+@import url("styles-base.css");
+
+/* Ajuste de robustez para o painel de navegação em telas estreitas. */
+@media (max-width: 1160px) {
+  .main-nav {
+    bottom: auto;
+    height: calc(100vh - 78px);
+    height: calc(100dvh - 78px);
+  }
+}
+
+@media (max-width: 720px) {
+  .main-nav {
+    height: calc(100vh - 70px);
+    height: calc(100dvh - 70px);
+  }
+}
